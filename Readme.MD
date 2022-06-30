@@ -61,3 +61,8 @@ curl --location --request GET 'http://localhost:8080/actuator/scheduledtasks'
 ```
 curl --location --request GET 'http://localhost:8080/actuator/mappings'
 ```
+
+```
+curl --location --request POST 'http://localhost:8080/restart' \
+--header 'Cookie: JSESSIONID=AF20D8B344870F56E242995F919E5C53'
+```
